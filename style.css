@@ -1,0 +1,27 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(174, 217, 232) ;
+    min-height: 50px;
+}
+
+.orange-flex-container {
+    display: flex;
+}
+
+.logo-box{
+    background-color: rgb(217, 164, 30);
+}
+
+.link-box{
+     background-color: rgb(217, 164, 30);
+}
+
+.login-box{
+     background-color: rgb(217, 164, 30);
+}
+
