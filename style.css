@@ -1,27 +1,62 @@
 *{
     padding: 0 ;
-    margin: 0 ;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 header{
     background-color: rgb(174, 217, 232) ;
-    min-height: 50px;
+    min-height: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .orange-flex-container {
     display: flex;
-}
-
-.logo-box{
+    width: 70%;
     background-color: rgb(217, 164, 30);
 }
 
+.orange-flex-container div{
+    padding: 10px 5px;
+}
+
+.logo-box{
+    width: 25%;
+}
+
 .link-box{
-     background-color: rgb(217, 164, 30);
+    width: 50%;
+    text-align: center;
 }
 
 .login-box{
-     background-color: rgb(217, 164, 30);
+    width: 25%;
+    text-align: right;  
 }
 
+.blue-flex-container{
+    display: flex;
+    background-color: blue;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.borders{
+    border: 1px dashed;
+}
+
+.pink-box{
+    background-color: blueviolet;
+    height: 300px;
+    width: 50%;
+}
+     
+.white-flex-container{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
