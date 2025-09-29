@@ -16,6 +16,12 @@ header{
     justify-content: center;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .orange-flex-container {
     display: flex;
     width: 70%;
@@ -40,12 +46,9 @@ header{
     text-align: right;  
 }
 
-.blue-flex-container{
-    display: flex;
+.blue{
     background-color: blue;
     height: 400px;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
 }
 
@@ -59,11 +62,8 @@ header{
     width: 50%;
 }
      
-.white-flex-container{
-    display: flex;
+.white{
     min-height: 400px;
-    justify-content: center;
-    align-items: center;
 }
 
 .lightblue-box{
@@ -76,4 +76,20 @@ header{
     background-color: rgb(255, 191, 202);
     min-height: 300px;
     width: 30%;
+}
+
+.gray{
+    background-color: rgb(212, 212, 212) ;
+    min-height: 400px;
+}
+
+.graygreen{
+    background-color: rgb(212, 212, 212) ;
+    min-height: 700px
+}
+
+.green-box {
+    background-color: rgb(34, 140, 34) ;
+    min-height: 600px;
+    width: 70%;
 }
