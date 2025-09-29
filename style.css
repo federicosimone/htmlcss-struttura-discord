@@ -1,6 +1,6 @@
 *{
     padding: 0 ;
-    margin: 0 auto;
+    margin: 0 ;
     box-sizing: border-box;
 }
 
@@ -9,6 +9,11 @@ header{
     min-height: 60px;
     padding-top: 10px;
     padding-bottom: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
 }
 
 .orange-flex-container {
@@ -56,7 +61,19 @@ header{
      
 .white-flex-container{
     display: flex;
-    height: 400px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
+}
+
+.lightblue-box{
+    background-color: rgb(31, 143, 255);
+    min-height: 300px;
+    width: 40%;
+}
+
+.lightpink-box{
+    background-color: rgb(255, 191, 202);
+    min-height: 300px;
+    width: 30%;
 }
