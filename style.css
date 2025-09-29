@@ -93,3 +93,33 @@ header{
     min-height: 600px;
     width: 70%;
 }
+
+.dark{
+    background-color: rgb(34, 38, 41) ;
+    min-height: 600px;
+    margin-bottom: 2px;
+}
+
+.salmon-box{
+    background-color:rgb(240, 129, 127) ;
+    min-height: 580px;
+    width: 25% ;
+}
+
+.darkbottom{
+    background-color: rgb(34, 38, 41) ;
+    min-height: 100px;
+    margin-bottom: 1px;
+}
+
+.blumarine-box{
+    background-color: rgb(32, 179, 169) ;
+    min-height: 580px;
+    width: 45%;
+}
+
+.bluemarine-son{
+    width: 25%;
+    min-height: 580px;
+    border: 1px dashed white;
+}
