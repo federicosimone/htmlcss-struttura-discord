@@ -2,6 +2,7 @@
     padding: 0 ;
     margin: 0 ;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header{
@@ -112,6 +113,12 @@ header{
     margin-bottom: 1px;
 }
 
+.dark-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .blumarine-box{
     background-color: rgb(32, 179, 169) ;
     min-height: 580px;
@@ -122,4 +129,22 @@ header{
     width: 25%;
     min-height: 580px;
     border: 1px dashed white;
+}
+
+.lowbar{
+    background-color: rgb(128, 255, 212);
+    min-height: 80px;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.footerflex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-button{
+    background-color: rgb(250, 182, 195) ;
+    padding: 5px 5px 5px 5px;
 }
